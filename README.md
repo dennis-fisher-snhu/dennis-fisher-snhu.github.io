@@ -8,7 +8,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ## Code Review
 
-https://youtu.be/etfyGvEYu7I
+<iframe width="1280" height="624" src="https://www.youtube.com/embed/etfyGvEYu7I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Jekyll Themes
 
