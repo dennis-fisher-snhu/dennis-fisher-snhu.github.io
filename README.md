@@ -7,3 +7,8 @@ My name is Dennis Fisher and I have a Bachelor's of Science from Southern New Ha
 
 >During the course, we were asked to perform an in-depth code review on our project that we selected for enhancement.
 
+## Software Design and Engineering Enhancement
+
+[![image](https://engineering.fb.com/wp-content/uploads/2015/06/1522635669452_11.jpg)](https://github.com/dennis-fisher-snhu/dennis-fisher-snhu.github.io/tree/master)
+
+[Please click here or on the image above to see the code for this project](https://github.com/dennis-fisher-snhu/dennis-fisher-snhu.github.io/tree/master)
