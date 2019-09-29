@@ -19,3 +19,9 @@ My name is Dennis Fisher and I have a Bachelor's of Science from Southern New Ha
 >I met the course I objectives I planned to meet with this enhancement. I was able to use my skills and techniques to implement design solutions and accomplish the goals I set for myself. I set solutions to solve logic problems in my software as well as notice potential design flaws related to security. 
 
 >I took my previous process involving hotkeys and wanted to have the user change the colorations of the table that they see. I originally planned to have the user press either T for table and L for lighting, but soon realized that I was only able to use the F1-12 keys. I was then thinking, instead of just randomly switching colors, I figured, the user should be able to adjust the amount of red, blue and green that was available. That would be more fun and interactive with the user. I did come to realize that if I kept the code is it was, the user could keep adding more of a singular color and could crash the program. I had to implement a max and min feature to the colors so that the color would stop increasing once the max was hit, and stop decreasing when reaching the minimum. I had to be careful not to let the user affect the application that could completely break my project.
+
+## Algorithms and Data Structure
+
+[![image](https://blog-assets.spotinst.com/app/uploads/2017/07/17202136/MongoDB-1440x728.jpg)](https://github.com/dennis-fisher-snhu/dennis-fisher-snhu.github.io/tree/master)
+
+[Please click here or on the image above to see the code for this project](https://github.com/dennis-fisher-snhu/dennis-fisher-snhu.github.io/tree/master)
