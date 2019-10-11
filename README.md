@@ -22,7 +22,7 @@ My name is Dennis Fisher and I have a Bachelor's of Science from Southern New Ha
 
 ## Algorithms and Data Structure
 
-[![image](https://blog-assets.spotinst.com/app/uploads/2017/07/17202136/MongoDB-1440x728.jpg)](https://github.com/dennis-fisher-snhu/dennis-fisher-snhu.github.io/tree/master)
+[![image](https://blog-assets.spotinst.com/app/uploads/2017/07/17202136/MongoDB-1440x728.jpg)](https://github.com/dennis-fisher-snhu/dennis-fisher-snhu.github.io/tree/master/cs-340-unit)
 
 [Please click here or on the image above to see the code for this project](https://github.com/dennis-fisher-snhu/dennis-fisher-snhu.github.io/tree/master)
 
