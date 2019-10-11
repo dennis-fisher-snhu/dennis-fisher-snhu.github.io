@@ -24,7 +24,7 @@ My name is Dennis Fisher and I have a Bachelor's of Science from Southern New Ha
 
 [![image](https://blog-assets.spotinst.com/app/uploads/2017/07/17202136/MongoDB-1440x728.jpg)](https://github.com/dennis-fisher-snhu/dennis-fisher-snhu.github.io/tree/master/cs-340-unit)
 
-[Please click here or on the image above to see the code for this project](https://github.com/dennis-fisher-snhu/dennis-fisher-snhu.github.io/tree/master)
+[Please click here or on the image above to see the code for this project](https://github.com/dennis-fisher-snhu/dennis-fisher-snhu.github.io/tree/master/cs-340-unit)
 
 >For my second artifact, I have been improving my final project from my CS 340: Advanced Programming Concepts course. For that course’s final project, we were to create and develop a web service using a software stack and we needed to implement an industry-standard interface. We were to use the RESTful application programming interface (API) web-based protocol and use MongoDB to code and test the uniform resource identifier (URI) paths.  I took this course during the 19EW5 term. 
 
@@ -38,3 +38,10 @@ My name is Dennis Fisher and I have a Bachelor's of Science from Southern New Ha
 [![image](https://miro.medium.com/max/1000/1*tuQwT4emzBkWBxg_IdrsJw.jpeg)](https://github.com/dennis-fisher-snhu/dennis-fisher-snhu.github.io/tree/master)
 
 [Please click here or on the image above to see the code for this project](https://github.com/dennis-fisher-snhu/dennis-fisher-snhu.github.io/tree/master)
+
+>For my third artifact, I have been improving my final project from my DAD 220: Introduction to SQL course. For that course’s final project, we were to create a new database from scratch, consisting of multiple tables. We were then to populate the database, update some records, and delete some existing records as well. We were then also creating queries that applied to previous milestones. 
+
+>I wanted to include this artifact in my ePortfolio as it was an artifact that used a language I never worked with in the past, except for this course. I was able to implement previous functions and utilize them to create more reports that weren’t required for the final project back in the DAD 220 course. I improved the artifact as I expanded its complexity cleaned up the code to make it easier to read. I added more advanced concepts in MySQL. I added a couple users and added user security to those users, granting them specific rights.
+
+>I met the course I objectives I planned to meet with this enhancement. I was able to use my skills and techniques to implement design solutions and accomplish the goals I set for myself. I set solutions to solve logic problems in my software as well as notice potential design flaws related to security. I wanted to ensure that the user could easily take my code and understand everything that they were looking at. I made sure each function had a clear description if it needed one.
+
