@@ -28,9 +28,10 @@ My name is Dennis Fisher and I have a Bachelor's of Science from Southern New Ha
 
 >For my second artifact, I have been improving my final project from my CS 340: Advanced Programming Concepts course. For that course’s final project, we were to create and develop a web service using a software stack and we needed to implement an industry-standard interface. We were to use the RESTful application programming interface (API) web-based protocol and use MongoDB to code and test the uniform resource identifier (URI) paths.  I took this course during the 19EW5 term. 
 
->I wanted to include this artifact in my ePortfolio as it was an artifact that used a language I never worked with in the past, except for this course. I was able to implement previous functions and utilize them to create more reports that weren’t required for the final project back in the CS 340 course. I improved the artifact as I expanded its complexity cleaned up the code to make it easier to read. 
+>I wanted to include this artifact in my ePortfolio as it was an artifact that used a language I never worked with in the past, except for this course. I was able to implement previous functions and utilize them to create more reports that weren’t required for the final project back in the CS 340 course. I improved the artifact as I expanded its complexity.
 
->I met the course I objectives I planned to meet with this enhancement. I was able to use my skills and techniques to implement design solutions and accomplish the goals I set for myself. I set solutions to solve logic problems in my software as well as notice potential design flaws related to security. I wanted to ensure that the user could easily take my code and understand everything that they were looking at. I made sure each function had a clear description if it needed one.
+>I met the course I objectives I planned to meet with this enhancement. I was able to use my skills and techniques to employ iterative testing techniques in my code. I was able to use the software development life cycle to create realistic production schedules for software projects. I was able to create an industry-standard software design. I made sure each function had a clear description if it needed one. I was able to create more robust and efficient code to deliver value and accomplish my industry-specific goals.
+
 
 ## Databases
 
