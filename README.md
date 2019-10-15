@@ -46,9 +46,9 @@ My name is Dennis Fisher and I have a Bachelor's of Science from Southern New Ha
 
 ## Databases
 
-[![image](https://miro.medium.com/max/1000/1*tuQwT4emzBkWBxg_IdrsJw.jpeg)](https://github.com/dennis-fisher-snhu/dennis-fisher-snhu.github.io/tree/master/DAD 220 Final Project)
+[![image](https://miro.medium.com/max/1000/1*tuQwT4emzBkWBxg_IdrsJw.jpeg)](https://github.com/dennis-fisher-snhu/dennis-fisher-snhu.github.io/tree/master/DAD%20220%20Final%20Project)
 
-[Please click here or on the image above to see the code for this project](https://github.com/dennis-fisher-snhu/dennis-fisher-snhu.github.io/tree/master/DAD 220 Final Project)
+[Please click here or on the image above to see the code for this project](https://github.com/dennis-fisher-snhu/dennis-fisher-snhu.github.io/tree/master/DAD%20220%20Final%20Project)
 
 >For my third artifact, I have been improving my final project from my DAD 220: Introduction to SQL course. For that course’s final project, we were to create a new database from scratch, consisting of multiple tables. We were then to populate the database, update some records, and delete some existing records as well. We were then also creating queries that applied to previous milestones. 
 
