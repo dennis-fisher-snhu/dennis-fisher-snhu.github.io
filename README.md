@@ -2,11 +2,6 @@
 
 My name is Dennis Fisher and I have a Bachelor's of Science from Southern New Hampshire University. Below is a showcase of my capstone work as well as the narratives to offer insight into my thought process on how I worked towards solving problems.
 
-## Code Review
-<iframe width="560" height="315" src="https://www.youtube.com/embed/etfyGvEYu7I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
->During the course, we were asked to perform an in-depth code review on our project that we selected for enhancement.
-
 ## Professional Self-Assessment
 
 >My journey with Computer Science has been a long but enjoyable one. It started for me in my Freshman year of High School. I took every Computer Science that was available and I completely fell in love with the subject. The way it was taught to us, made it even more enjoyable. Starting the year with Visual Basic and Java gave the students the fundamentals to Computer Science that really drew my attention to what we could do in the field. The year after that, we learned more Java as well as C++, broadening our knowledge of languages and what we were able to do. The last two years of High School, we started to learn the more advanced concepts of Computer science as well as develop a game of our own design. I knew then, from my experience in High School, that I loved the field and the people that revolved around it and that I wanted to do that for the rest of my career. 
@@ -18,6 +13,11 @@ My name is Dennis Fisher and I have a Bachelor's of Science from Southern New Ha
 >One thing you don’t really learn in the office is the mechanics behind data structures and algorithms. Either you know them here, or you don’t. The courses I took at SNHU really helped me understand these structures and algorithms. I would never have understood them if it weren’t for these courses as most people at my job don’t know the structures themselves. Most of the work we do involve databases and a bit of software engineering. We develop applications that customer use to access their data and to further understand the data they provide. We take the databases, and create universes and then tables and views in the back-end to make it easier for front-end developers to showcase the work and data provided. I would not have been able to get as far as I did if it weren’t for the wonderful professors I had at SNHU.
 
 >The following three artifacts I had worked on for this portfolio, were all pieces involving languages and functionality I wasn’t as familiar with. I wanted to widen my comfort zone and work in languages I needed more practice in. I wanted to show that I then understood what I have been learning and was able to utilize that more to create something new and exciting to the projects I have worked with in the past.
+
+## Code Review
+<iframe width="560" height="315" src="https://www.youtube.com/embed/etfyGvEYu7I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+>During the course, we were asked to perform an in-depth code review on our project that we selected for enhancement.
 
 ## Software Design and Engineering Enhancement
 
