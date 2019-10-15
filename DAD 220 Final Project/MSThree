@@ -1,0 +1,101 @@
+show databases; 
+
+use scheduling;
+
+Show tables from scheduling;
+
+#Task One.
+SELECT first_name    AS "First Name", 
+       last_name     AS "Last Name", 
+       building_name AS "Building Name", 
+       room_number   AS "Room Number", 
+       meeting_start AS "Meeting start date and time", 
+       meeting_end   AS "Meeting end date and time" 
+FROM   person, 
+       building, 
+       room, 
+       meeting,
+       person_meeting
+       
+WHERE room.room_id = meeting.room_id
+     AND meeting.meeting_id = person_meeting.meeting_id
+     AND person.person_id = person_meeting.person_id
+     AND room.building_id = building.building_id
+     AND person.first_name = 'Tom'
+     AND person.last_name = 'Hanks';
+     
+#--------------------------------------------------------------------------------------------------------------------     
+#Task Two.
+SELECT first_name    AS "First Name", 
+       last_name     AS "Last Name", 
+       building_name AS "Building Name", 
+       room_number   AS "Room Number", 
+       meeting_start AS "Meeting start date and time", 
+       meeting_end   AS "Meeting end date and time" 
+FROM   person, 
+       building, 
+       room, 
+       meeting,
+       person_meeting
+       
+WHERE room.room_id = meeting.room_id
+     AND meeting.meeting_id = person_meeting.meeting_id 
+     AND person.person_id = person_meeting.person_id
+     AND room.building_id = building.building_id
+     AND meeting.meeting_id =2;
+#----------------------------------------------------------------------------------------------------------------------
+#Task Three
+
+SELECT first_name    AS "First Name", 
+       last_name     AS "Last Name", 
+       building_name AS "Building Name", 
+       room_number   AS "Room Number", 
+       meeting_start AS "Meeting start date and time", 
+       meeting_end   AS "Meeting end date and time" 
+FROM   person, 
+       building, 
+       room, 
+       meeting,
+       person_meeting
+       
+WHERE    room.room_id = meeting.room_id
+     AND meeting.meeting_id = person_meeting.meeting_id 
+     AND person.person_id = person_meeting.person_id
+     AND room.building_id = building.building_id
+     AND building_name = "Main Street buidling";
+#---------------------------------------------------------------------------------------------------------------------------
+#Task Four
+
+SELECT 
+count(person_id) AS 'Count of meeting attendees', 
+      meeting.meeting_id AS "Meeting ID",
+      meeting_start AS "Meeting date and time",
+      meeting_end   AS "Meeting end date and time" 
+
+FROM 
+meeting, 
+person_meeting
+       
+WHERE 
+meeting.meeting_id = person_meeting.meeting_id
+GROUP BY meeting.meeting_id;
+
+#----------------------------------------------------------------------------------------------------------------------------
+#Task Five
+
+SELECT first_name    AS "First Name", 
+       last_name     AS "Last Name", 
+       meeting.meeting_id AS "Meeting ID",
+       meeting_start AS "Meeting start date and time",
+       meeting_end   AS "Meeting end date and time" 
+FROM   
+      meeting 
+      INNER JOIN person_meeting ON meeting.meeting_id=person_meeting.meeting_id
+      INNER JOIN person ON person.person_id=person_meeting.person_id
+       
+WHERE  
+
+meeting_start<'2016-12-25 12.00.00';
+
+
+

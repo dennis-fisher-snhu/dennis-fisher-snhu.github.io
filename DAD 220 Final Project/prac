@@ -1,0 +1,18 @@
+SELECT
+s.first_name AS "Sender's' First Name",
+s.last_name AS "Sender's' Last Name",
+r.first_name AS "Receiver's First Name",
+r.last_name AS "Receiver's' Last Name",
+m.message_id AS "Message ID",
+m.message AS "Message",
+m.send_datetime AS "Message Timestamp"
+FROM
+person,s
+person, r
+message m
+WHERE
+
+m.sender_id = s.person_id AND
+m.receiver_id = r.person_id AND
+s.first_name = "Michael" AND
+s.last_name = "Phelps";

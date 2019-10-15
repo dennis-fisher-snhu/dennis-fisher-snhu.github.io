@@ -1,0 +1,75 @@
+/*ALTER TABLE flight_reservation.customer
+      ADD (DateOfBirth date);*/
+/*UPDATE customer
+SET DateOfBirth = '1987-01-31'
+WHERE customer_id = 1;
+UPDATE customer
+SET DateOfBirth = '1986-02-10'
+WHERE customer_id = 2;
+UPDATE customer
+SET DateOfBirth = '1985-03-25'
+WHERE customer_id = 3;
+UPDATE customer
+SET DateOfBirth = '1984-04-17'
+WHERE customer_id = 4;
+UPDATE customer
+SET DateOfBirth = '1983-06-09'
+WHERE customer_id = 5;*/
+
+/*UPDATE customer
+SET DateOfBirth = '1982-05-24'
+WHERE customer_id = 6;
+UPDATE customer
+SET DateOfBirth = '1981-07-20'
+WHERE customer_id = 7;
+UPDATE customer
+SET DateOfBirth = '1982-08-15'
+WHERE customer_id = 8;
+UPDATE customer
+SET DateOfBirth = '1980-10-19'
+WHERE customer_id = 9;
+UPDATE customer
+SET DateOfBirth = '1979-11-08'
+WHERE customer_id = 10;*/
+
+/*INSERT INTO customer (customer_id, first_name, last_name,DateOfBirth)
+VALUES ('11', 'Dennis', 'Fisher', '1995-10-10');
+
+INSERT INTO customer (customer_id, first_name, last_name,DateOfBirth)
+VALUES ('12', 'Michelle', 'Banks', '1970-05-21');
+
+INSERT INTO customer (customer_id, first_name, last_name,DateOfBirth)
+VALUES ('13', 'David', 'Smith', '1978-12-30');
+
+INSERT INTO customer (customer_id, first_name, last_name,DateOfBirth)
+VALUES ('14', 'Samantha','Cohen','1971-09-25');
+
+INSERT INTO customer (customer_id, first_name, last_name,DateOfBirth)
+VALUES ('15', 'Tom', 'Hanks','1969-10-22');*/
+
+
+/*INSERT INTO flight(flight_id,from_city,to_city,departure_date_time,arrival_date_time,status_id)
+VALUES ('6', 'New Jersey', 'Tennessee','2016-12-25 11:00:00','2016-12-25 13:53:00','1');
+
+INSERT INTO flight(flight_id,from_city,to_city,departure_date_time,arrival_date_time,status_id)
+VALUES ('7', 'New Hampshire', 'San Diego','2016-12-25 12:41:00','2016-12-25 05:41:00','1');'*/
+
+/*INSERT INTO flight_reservation(flight_id,customer_id) 
+VALUES ('6','11');
+
+INSERT INTO flight_reservation(flight_id,customer_id) 
+VALUES ('4','13');
+
+INSERT INTO flight_reservation(flight_id,customer_id) 
+VALUES ('3','12');
+
+INSERT INTO flight_reservation(flight_id,customer_id) 
+VALUES ('7','14');*/
+
+/*SELECT * FROM flight_reservation.flight WHERE from_city = 'Seattle';*/
+
+DELETE FROM flight_reservation.flight
+WHERE flight_id = 5;
+
+
+

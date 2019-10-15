@@ -1,0 +1,259 @@
+#show databases;
+
+#use messaging;
+
+#show tables;
+
+#Select * from person;
+
+#---------------------------------------------------------------
+#Task One
+
+#INSERT INTO person(person_id,first_name,last_name)
+#VALUES('7','Dennis','Fisher');
+
+#INSERT INTO person(person_id,first_name,last_name)
+#VALUES('8','John','Smith');
+
+#INSERT INTO person(person_id,first_name,last_name)
+#VALUES('9','Christopher','White');
+
+#INSERT INTO person(person_id,first_name,last_name)
+#VALUES('10','Kevin','Harris');
+
+#select * from person;
+#---------------------------------------------------------------
+#Task Two
+
+#ALTER TABLE person 
+#ADD (Phone_Number varchar(25) NOT NULL);
+#select * from person;
+
+#---------------------------------------------------------------
+#Task Three
+
+#UPDATE person
+#SET Phone_Number = '732-958-6869'
+#WHERE person_id = 1;
+#select * from person;
+
+#UPDATE person
+#SET Phone_Number = '917-745-9145'
+#WHERE person_id = 2;
+
+#UPDATE person
+#SET Phone_Number = '718-545-4625'
+#WHERE person_id = 3;
+
+#UPDATE person
+#SET Phone_Number = '848-475-2368'
+#WHERE person_id = 4;
+
+#UPDATE person
+#SET Phone_Number = '678-638-2238'
+#WHERE person_id = 5;
+
+#UPDATE person
+#SET Phone_Number = '609-308-3198'
+#WHERE person_id = 6;
+
+#UPDATE person
+#SET Phone_Number = '732-948-7183'
+#WHERE person_id = 7;
+
+#UPDATE person
+#SET Phone_Number = '212-635-0128'
+#WHERE person_id = 8;
+
+#UPDATE person
+#SET Phone_Number = '848-547-6829'
+#WHERE person_id = 9;
+
+#UPDATE person
+#SET Phone_Number = '603-945-8365'
+#WHERE person_id = 10;
+#select * from person;
+
+#-------------------------------------------------------------
+#Task 4
+
+#DELETE FROM person
+#WHERE first_name = 'Diana' AND last_name = 'Taurasi';
+#select * from person;
+
+#-------------------------------------------------------------
+#Task 5
+
+#ALTER TABLE contact_list
+#ADD (favorite varchar(10) NULL);
+#select * from contact_list;
+
+#-------------------------------------------------------------
+#Task 6
+
+#UPDATE contact_list
+#SET favorite = 'y'
+#WHERE contact_id = 1;
+#select * from contact_list;
+
+#--------------------------------------------------------------
+#Task 7
+
+#Update contact_list
+#SET favorite = 'n'
+#WHERE contact_id <> 1;
+#select * from contact_list;
+
+#--------------------------------------------------------------
+#Task 8
+
+#INSERT INTO contact_list(connection_id, person_id, contact_id, favorite)
+#VALUES('15', '7', '1', 'y');
+
+
+#INSERT INTO contact_list(connection_id, person_id, contact_id, favorite)
+#VALUES('16', '7', '2', 'n');
+
+
+#INSERT INTO contact_list(connection_id, person_id, contact_id, favorite)
+#VALUES('17', '7', '9', 'y');
+
+
+#INSERT INTO contact_list(connection_id, person_id, contact_id, favorite)
+#VALUES('18', '8', '7', 'y');
+
+
+#INSERT INTO contact_list(connection_id, person_id, contact_id, favorite)
+#VALUES('19', '9', '7', 'y');
+
+
+#INSERT INTO contact_list(connection_id, person_id, contact_id, favorite)
+#VALUES('20', '10', '7', 'y');
+#select * from contact_list;
+
+#----------------------------------------------------------------
+#Task 9
+
+#drop table if exists message_image;
+#CREATE TABLE image
+#(
+    #image_id int(8) NOT NULL Auto_Increment,
+    
+    #image_name varchar(50) NOT NULL,
+    #image_location varchar(250) NOT NULL,
+     
+    #primary key (image_id)
+    
+#);
+#select * from image;
+#show columns from image;
+
+#----------------------------------------------------------------
+#Task 10
+
+#drop table if exists message_image;
+#CREATE TABLE message_image
+#(
+    #message_id int(8) NOT NULL,
+    
+    #image_id int(8) NOT NULL,
+    
+     
+    #primary key (message_id,image_id)
+    
+#);
+#select * from message_image;
+#show columns from message_image;
+
+#-------------------------------------------------------------------
+#Task 11
+#INSERT INTO image(image_id, image_name, image_location)
+#VALUES('1','Picture 1', 'Atlantic City, New Jersey');
+
+#INSERT INTO image(image_id, image_name, image_location)
+#VALUES('2', 'Picture 2', 'Manhattan, New York');
+
+#INSERT INTO image(image_id, image_name, image_location)
+#VALUES('3', 'Picture 3', 'Manchestor, New Hampshire');
+
+#INSERT INTO image(image_id, image_name, image_location)
+#VALUES('4', 'Picture 4', 'Charlotte, North Carolina');
+
+#INSERT INTO image(image_id, image_name, image_location)
+#VALUES('5', 'Picture 5', 'San Diego, California');
+#select * from image;
+
+
+#---------------------------------------------------------------------
+#Task 12
+#INSERT INTO message_image(message_id, image_id)
+#VALUES('1', '5');
+
+#INSERT INTO message_image(message_id, image_id)
+#VALUES('2','4');
+
+#INSERT INTO message_image(message_id, image_id)
+#VALUES('5', '2');
+
+#INSERT INTO message_image(message_id, image_id)
+#VALUES('5', '1');
+
+#INSERT INTO message_image(message_id, image_id)
+#VALUES('4', '3');
+#select * from message_image;
+
+#-----------------------------------------------------------------------
+#Task 13
+
+#Select S.first_name AS "Sender's First Name",
+       #S.last_name AS "Sender's Last Name",
+       #R.first_name AS "Receiver's first name",
+       #R.last_name AS "Receiver's last name",
+       #M.message_id AS "Message ID",
+       #M.message AS "Message",
+       #M.send_datetime AS "Message Timestamp"
+       
+      #FROM message M, 
+           #person S,
+           #person R
+#WHERE M.sender_id = S.person_id
+
+#AND  M.receiver_id = R.person_id
+
+#AND S.first_name = 'Michael'
+
+#AND S.last_name = 'Phelps';
+
+#----------------------------------------------------------------------
+#Task 14
+#SELECT 
+#count(message_id) AS 'Count of messages', 
+      #P.person_id AS 'Person ID',
+      #P.first_name AS 'First Name',
+      #P.last_name AS 'Last Name'
+#FROM 
+#message M,
+#person P
+ 
+#WHERE 
+#M.sender_id = P.person_id
+#GROUP BY P.person_id, P.first_name, P.last_name;
+
+#-----------------------------------------------------------------------
+#Task 15
+
+#SELECT m_i.message_id AS 'Message ID', 
+       #min(m.message) AS 'Message', 
+       #min(m.send_datetime) AS 'Message Timestamp',
+       #min(i.image_name) AS "First Image Name",
+       #min(i.image_location) AS 'First Image location'
+       
+#FROM   
+     #message m
+      #INNER JOIN message_image m_i ON m.message_id = m_i.message_id
+      #INNER JOIN image i on i.image_id = m_i.image_id
+      #Group By m_i.message_id;
+
+
+
+

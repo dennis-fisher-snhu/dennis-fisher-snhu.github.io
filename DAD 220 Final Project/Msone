@@ -1,0 +1,110 @@
+drop table person;
+CREATE TABLE person
+(
+    Person_ID int NOT NULL Auto_Increment,
+    
+    Last_Name varchar(25) NOT NULL,
+    First_Name varchar(25) NOT NULL,
+    gender varchar(1),
+    age int(8), 
+    favorite_food varchar(20),
+    primary key (Person_ID)
+);
+
+drop table if exists department;
+CREATE TABLE department
+(
+    dept_id int(8) NOT NULL Auto_Increment,
+    
+    dept_Name varchar(25) NOT NULL,
+    building varchar(25) NOT NULL,
+ 
+    primary key (dept_id)
+);
+
+drop table if exists person_department;
+CREATE TABLE person_department
+(
+    dept_id int(8) NOT NULL,
+    
+    person_id int(8) NOT NULL,
+    
+ 
+    primary key (dept_id,person_id)
+);
+
+INSERT person(Last_Name,First_Name,gender,age,favorite_food) values 
+('Hale','Doug','M',43,'cheese');
+
+INSERT department(dept_Name,building) values 
+('finance','bl1');
+
+INSERT person_department(dept_id,person_id) values 
+('1','1698');
+
+
+INSERT person(Last_Name,First_Name,gender,age,favorite_food) values 
+('Fisher','Dennis','M',23,'sushi');
+
+INSERT department(dept_Name,building) values 
+('Administration','bl2');
+
+INSERT person_department(dept_id,person_id) values 
+('2','2563');
+
+INSERT person(Last_Name,First_Name,gender,age,favorite_food) values 
+('Smith','John','M',50,'pineapple pizza');
+
+INSERT department(dept_Name,building) values 
+('Account Medical Records','bl3');
+
+INSERT person_department(dept_id,person_id) values 
+('3','3789');
+
+INSERT person(Last_Name,First_Name,gender,age,favorite_food) values 
+('Banks','Nicole','F',23,'chicken tenders');
+
+INSERT department(dept_Name,building) values 
+('OutPatient','bl4');
+
+INSERT person_department(dept_id,person_id) values 
+('4','4698');
+INSERT person(Last_Name,First_Name,gender,age,favorite_food) values 
+('Cruise','Ryan','M',45,'lamb chops');
+
+INSERT department(dept_Name,building) values 
+('Radiology','bl5');
+
+INSERT person_department(dept_id,person_id) values 
+('5','5713');
+
+INSERT person(Last_Name,First_Name,gender,age,favorite_food) values 
+('Sanders','Ryan','M',50,'Hamburgar');
+
+INSERT department(dept_Name,building) values 
+('Emergency Room','bl6');
+
+INSERT person_department(dept_id,person_id) values 
+('6','7534');
+
+INSERT person(Last_Name,First_Name,gender,age,favorite_food) values 
+('O Neil','James','M',30,'Tacos');
+
+INSERT department(dept_Name,building) values 
+('Inpatient','bl7');
+
+INSERT person_department(dept_id,person_id) values 
+('7','8329');
+
+INSERT person(Last_Name,First_Name,gender,age,favorite_food) values 
+('Williams','Samantha','F',32,'Turkey');
+
+INSERT department(dept_Name,building) values 
+('Food Court','bl8');
+
+INSERT person_department(dept_id,person_id) values 
+('8','9452');
+
+
+
+
